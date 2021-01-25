@@ -69,12 +69,12 @@
 
 * Проверяет и редиректит запрос на location вместе с телом
 
-  Название параметра | Описание | Место хранения
-      ------------ | ------------- | -------------
-  location | Адрес редиректа | query
-  accessToken | jsonWebToken   | заголовок запроса ( authorization )
+        Название параметра | Описание | Место хранения
+        ------------ | ------------- | -------------
+         location | Адрес редиректа | query
+        accessToken | jsonWebToken   | заголовок запроса ( authorization )
   
-  Пример заголовка authorization:
+        Пример заголовка authorization:
     ```
     Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoicml0ZXZpIiwiZW1haWwiOiJyaXRldmlAZ21haWwuY29tIiwiaWF0IjoxNjA0MzU1NTA2LCJleHAiOjE2MDQzNTczMDZ9.5BkgyXFz70I5w1pGaRgd7B3ZcUS5HQVzxdH3IsBj0lw     
     ```  
